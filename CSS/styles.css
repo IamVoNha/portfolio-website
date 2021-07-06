@@ -1,5 +1,4 @@
 :root {
-  --gradient: rgb(251, 252, 222), rgb(171, 219, 213);
   --teal: #357b70;
   --pacific-ocean: #05676e;
   --gold: #c7821c;
@@ -12,11 +11,11 @@
 }
 
   body {
-    background-image: linear-gradient(var(--gradient));
+    background-image: linear-gradient(rgb(251, 252, 222), rgb(171, 219, 213), lightgrey);
     font-family: 'merienda', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    min-height: 100vh
+    min-height: 100vh;
     /* Sets the font size to 16px */
     line-height: 1.6;
     /* Sets the line-height to 1.6 */
@@ -43,7 +42,7 @@
 
   a:visited {
   /* visited link */
-  color: var(pacific-ocean);
+  color: var(--pacific-ocean);
   }
 
   a:hover, a:focus {
@@ -215,10 +214,10 @@
   100% {
     fill: #922B21;
   }
-  }
+}
 
   .sun {
-  animation: 4s color-change infinite alternate linear;
+    animation: 4s color-change infinite alternate linear;
   }
 
   @keyframes cloud-move {
