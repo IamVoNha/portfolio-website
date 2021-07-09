@@ -75,6 +75,7 @@ button {
   -o-transition-property: opacity;
   transition-property: opacity;
 }
+/* practice buttons.
 
 .button {
   border: none;
@@ -106,7 +107,7 @@ button:focus,
   cursor: pointer;
   opacity: 0.8;
 }
-
+*/
 .profile__portrait {
   float: left;
   width: 350px;
@@ -206,7 +207,7 @@ button:focus,
 
 h1 {
   font-size: 30px;
-  font-weight: 300;
+  font-weight: 700;
   text-align: center;
 }
 
