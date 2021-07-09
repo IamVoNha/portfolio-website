@@ -186,8 +186,10 @@ button:focus,
 }
 
 .about-me {
-  margin: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
   text-align: center;
+  padding: 50px;
 }
 
 .about-me__item {
